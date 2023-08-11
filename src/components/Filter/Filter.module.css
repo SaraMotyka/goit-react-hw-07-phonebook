@@ -1,0 +1,22 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter > .contactList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filter__input {
+  margin-bottom: 20px;
+  width: 200px;
+  border: 1px solid #88797b;
+  border-radius: 60px;
+  padding: 10px 15px;
+}
+.filter__input:focus {
+  outline: 1px solid #d3b6a0;
+  border: none;
+}
